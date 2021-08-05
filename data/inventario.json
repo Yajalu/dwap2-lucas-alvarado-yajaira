@@ -1,0 +1,16 @@
+[{
+    "nombre":"Asuntol",
+    "precio":"$2.50",
+    "img":"https://www.soldis.com.ec/wp-content/uploads/2020/06/asuntol.png"
+},
+{
+    "nombre":"procan",
+    "precio":"$3.00",
+    "img": "https://www.procan.com.ec/wp-content/uploads/2021/02/alimento-seco.png"
+},
+{
+    "nombre":"Shampoo",
+    "precio":"$1.50",
+    "img":"https://cl.all.biz/img/cl/catalog/57568.png"
+}
+]

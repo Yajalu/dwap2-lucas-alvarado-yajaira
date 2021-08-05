@@ -1,0 +1,259 @@
+body{
+    background: center no-repeat fixed rgb(122, 122, 122)
+      url("https://static.wixstatic.com/media/ed4103_01af1676dab3456e85d6c32529376e13~mv2.jpg" );
+    background-size: 100em;
+    margin: 0 auto;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+#explorar{
+    background: white;
+    background-clip:padding-box ;
+    color: black;
+    border: 7px double white;
+    padding: 0.6em 2em;
+    font-size: 0.6em;
+    
+  }
+  #explorar:hover{
+    border-color:rgb(9, 9, 189) ;
+    background: rgb(9, 9, 189);
+    background-clip:padding-box ;
+    color: white;
+    cursor: pointer;
+  }
+.banner{
+    text-align: center;
+
+}
+
+
+
+h3{
+  margin: 0 auto;
+  color: #6063ff;
+}
+
+#font-1{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1em;
+}
+#font-2{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+}
+
+section{
+  margin: 4em;
+}
+/*about*/
+.about{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-size: 85em;
+  width: auto;
+  height: auto;
+}
+.cont-about{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    padding: 2.5em 0;
+}
+.img-cont{
+   overflow: hidden;
+   display: block;
+   border: 3px solid black;
+   background-color: white;
+   margin: 60px;
+}
+.about-inf{
+    margin: 0 3em;
+    width: 30em;
+}
+
+.about-inf h1{
+  color: black;
+  font-size: 3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#informacion{
+    background: #467df3de;
+    background-clip:padding-box ;
+    color: white;
+    border: 7px double #467df3de;
+    padding: 0.6em 2em;
+    font-size: 0.6em;
+    
+  }
+  #informacion:hover{
+    border-color:rgb(9, 9, 189) ;
+    background: rgb(9, 9, 189);
+    background-clip:padding-box ;
+    color: white;
+    cursor: pointer;
+  }
+  /*productos */
+  .products{
+    margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: 95em;
+      background-color:rgb(52, 149, 214) ;
+      width: auto;
+      height: auto;
+  }
+  .content-products{
+      display: flex;
+      text-align: justify;
+      align-items: center;
+      padding: 2.3em 0;
+
+  }
+  .text-products{
+      margin: 0em 4em;
+      width: 20em;
+  }
+  .text-products h1{
+      font-size: 2.1em;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .img-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    width: 25em;
+  }
+  .img-port{
+      padding: 0 0 0 3em; 
+      
+  }
+  .img-port h3{
+      color: white;
+  }
+  #producto {
+      object-fit: cover;
+      height: 12em;
+      width: 10em;
+  }
+ 
+  #inventario{
+    background: white;
+    background-clip:padding-box ;
+    color: black;
+    border: 7px double white;
+    padding: 0.6em 2em;
+    font-size: 0.6em;
+    
+  }
+  #inventario:hover{
+    border-color:rgb(9, 9, 189) ;
+    background: rgb(9, 9, 189);
+    background-clip:padding-box ;
+    color: white;
+    cursor: pointer;
+  }
+/*contacto*/
+.contacts{
+    margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: 95em;
+      background-color:white ;
+      width: auto;
+      height: auto;
+}
+.default{
+  text-align: center;
+  align-items: center;
+  padding: 25px 25px 25px;
+  
+}
+.icon{
+  width: 18px;
+  height: 18px;
+}
+
+.footer{
+  margin: 0;
+  background-color:#37a3b6;
+  padding: 3%;
+  text-align: center;
+}
+.footer h3{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+}
+#contenedor{
+  overflow: hidden;
+  border: 0.4em solid ;
+  background-color:#37a3b6 ;
+ border-radius:  1em; 
+}
+#about-img{
+  display: block;
+  height: 12em;
+  transition: transform 1s;
+}
+#about-img:hover{
+  transform: scale(1.3);
+  z-index: 100;
+  opacity: 60%;
+}
+#photo{
+  object-fit: cover;
+  width: 15em;
+
+}
+.item2 button {
+  position:sticky;
+  transform: translate(-50, -50);
+ }
+.item2 button:focus {
+  outline: none;
+ }
+ .item>img{
+   width: 100%;
+  transition: width 1s, height 1s, transform 1s;
+  
+ }
+ .item>img{
+  transform: scale(1.2);
+  cursor: pointer;
+ }
+
+ /*media query*/
+ @media (max-width:1075){
+     #producto{
+         height: 0.5em;
+         width: 0.5m;
+     }
+    
+
+ }
+
+
+
+
+ 
